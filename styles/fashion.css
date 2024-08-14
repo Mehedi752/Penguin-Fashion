@@ -53,6 +53,10 @@ header {
     line-height: 24px;
 }
 
+.menu-button {
+    display: none;
+}
+
 
 
 .banner {
@@ -312,7 +316,7 @@ header {
     margin-bottom: 0px;
 }
 
-.footer-image{
+.footer-image {
     padding-top: 40px;
 }
 
@@ -321,4 +325,5 @@ header {
     height: 354.07px;
     border: 2px dashed rgb(54, 57, 88);
 }
+
 /* End of Footer Related Styles.  */

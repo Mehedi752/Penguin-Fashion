@@ -1,0 +1,133 @@
+@media screen and (max-width:576px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header {
+        padding: 30px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .banner {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .banner-content {
+        margin-top: 0px;
+    }
+
+    .banner-title {
+        font-size: 70px;
+        margin-bottom: 0px;
+    }
+
+    .banner-desc {
+        padding-bottom: 20px;
+    }
+
+    .banner-image {
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+
+
+
+    .woman-section {
+        margin: 0px 30px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .jacket-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jacket-title {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .woman-jacket,
+    .man-jacket {
+        width: 335px;
+    }
+
+
+    .woman-jacket-image img {
+        text-align: center;
+
+    }
+
+    .woman-jacket-bottom,
+    .man-jacket-bottom {
+        align-items: center;
+    }
+
+    .man-section {
+        margin-top: 50px;
+        margin: 0px 30px;
+        padding-top: 30px;
+    }
+
+    .buy-button {
+        width: 165px;
+        height: 50px;
+    }
+
+    .footer-container {
+        flex-direction: column-reverse;
+        margin: 50px 0px;
+    }
+
+    .footer-left {
+        padding: 0px 30px;
+        gap: 30px;
+    }
+
+    .footer-image img {
+        width: 100%;
+    }
+
+    .footer-image {
+        padding: 30px;
+    }
+
+    .footer-box {
+        width: 100%;
+        height: 240px;
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+    }
+
+    .box-image {
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+
+    .box-title {
+        margin-top: 16px;
+        margin-bottom: 12px;
+    }
+
+    .box-desc {
+        padding:0px 40px;
+        margin-bottom: 28px;
+    }
+}
